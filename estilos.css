@@ -1,0 +1,46 @@
+body {
+  background-image: url("imagenes/fondo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#arbol {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-image: url(imagenes/tree.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+  }
+
+.bolas {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 100%;
+  border: black 3px solid;
+}
+
+.containerSpan{
+  display: inline;
+  width: 48%;
+}
+
+#contenedorCabecera{
+  background-color: black;
+  width: 30%;
+  padding: 5px;
+  color: white;
+  margin: auto;
+}
+
+#contenedorBotones{
+  margin-bottom: 5px;
+}
+
+#bolasCreadas{
+  margin-right: 5px;
+}
