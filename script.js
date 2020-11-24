@@ -5,6 +5,7 @@ $(document).ready(function(){
   var contBolasCreadas = $("#bolasCreadas");
   var contBolasEliminadas = $("#bolasEliminadas");
   var arbol = $("#arbol");
+  var imagenArbol = $("#imagenArbol");
 
   botonMoverArbol.click(tirarBolas);
 
@@ -85,15 +86,15 @@ $(document).ready(function(){
 
     for(let i = 0; i <= 4; i++){
 
-      arbol.animate({left: "7px"}, 60);
-      arbol.animate({left: "-7px"}, 60);
-      arbol.animate({left: "0px"}, 60);
+      imagenArbol.animate({left: "7px"}, 60);
+      imagenArbol.animate({left: "-7px"}, 60);
+      imagenArbol.animate({left: "0px"}, 60);
 
     }
 
     for (let i = 0; i < bolas.length; i++) {
       
-      $("#bola"+(i+1)).delay(400).animate({ "top": "400px" }, 800 );
+      $("#bola"+(i+1)).delay(400).animate({ "top": "370px" }, 800 );
 
     }
     
